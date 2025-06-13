@@ -1,5 +1,5 @@
-#ifndef GET_LOCALTIME_H
-#define GET_LOCALTIME_H
+#ifndef GET_LOCALTIME
+#define GET_LOCALTIME
 
 void get_localtime(char *buffer);
 
