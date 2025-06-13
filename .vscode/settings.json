@@ -1,0 +1,12 @@
+{
+    "[c]": {
+        "files.encoding": "shiftjis"
+    },
+    "[h]": {
+        "files.encoding": "shiftjis"
+    },
+    "[cpp]": {
+        "files.encoding": "shiftjis"
+    },
+    "files.autoGuessEncoding": false
+}
