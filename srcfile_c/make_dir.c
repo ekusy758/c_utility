@@ -23,6 +23,7 @@ void make_dir(const char *dirpath) {
         printf("フォルダ:%s を作成しました.\n", dirpath);
     } else {
         fprintf(stderr, "Error: フォルダ:%s の作成に失敗しました.\n", dirpath);
+        perror("mkdir");
     }
 
 }

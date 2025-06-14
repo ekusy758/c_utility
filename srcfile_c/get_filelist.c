@@ -16,6 +16,7 @@ int get_filelist(char filelist[][256], const char *basepath) {
     DIR *dir = opendir(basepath);
     if (dir == NULL) {
         fprintf(stderr, "Error: 基準フォルダ:%s をオープンできません.\n", basepath);
+        perror("opendir");
         return -1;
     }
 
