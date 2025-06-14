@@ -11,7 +11,7 @@
 ******************************************************************************/
 void make_dir(const char *dirpath) {
 
-    // stat関数へ渡すstat構造体変数(ファイル情報を格納)
+    // stat関数へ渡すstat構造体変数(領域は呼び出し元で確保)
     struct stat buffer;
 
     if (stat(dirpath, &buffer) == 0) {
